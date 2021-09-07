@@ -34,15 +34,25 @@ const division = function (arg1, arg2) {
   return arg1/arg2
 };
 
-const returnArray = function (arg1) {};
+const returnArray = function (arg1) {
+  return arg1
+};
 
-const returnFirstIndex = function (arg1) {};
+const returnFirstIndex = function (arg1) {
+  return arg1[0]
+};
 
-const returnSecondIndex = function (arg1) {};
+const returnSecondIndex = function (arg1) {
+  return arg1[1]
+};
 
-const returnArrayLength = function (arg1) {};
+const returnArrayLength = function (arg1) {
+  return arg1.length
+};
 
-const arraySum = function (arg1) {};
+const arraySum = function (arg1) {
+  
+};
 
 const arraySubtraction = function (arg1) {};
 
