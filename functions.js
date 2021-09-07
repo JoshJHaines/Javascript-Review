@@ -51,14 +51,36 @@ const returnArrayLength = function (arg1) {
 };
 
 const arraySum = function (arg1) {
-  
+  let sum = 0
+  for (let i=0; i<arg1.length; i++){
+    sum += arg1[i]
+  }
+  return sum
 };
 
-const arraySubtraction = function (arg1) {};
+const arraySubtraction = function (arg1) {
+  let sum = 0
+  for (let i=0; i<arg1.length; i++){
+    sum -= arg1[i]
+  }
+  return sum
+};
 
-const multiplicationArray = function (arg1) {};
+const multiplicationArray = function (arg1) {
+  let sum = 1
+  for (let i=0; i<arg1.length; i++){
+    sum *= arg1[i]
+  }
+  return sum
+};
 
-const divisionArray = function (arg1) {};
+const divisionArray = function (arg1) {
+  let sum = 1
+  for (let i=0; i<arg1.length; i++){
+    sum /= arg1[i]
+  }
+  return Number(sum.toFixed(3))
+};
 
 const oddArray = function (arg1) {};
 
