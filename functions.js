@@ -6,9 +6,13 @@ const returnZeroNumber = function () {
   return 0
 };
 
-const returnEmptyArray = function () {};
+const returnEmptyArray = function () {
+  return []
+};
 
-const returnEmptyObject = function () {};
+const returnEmptyObject = function () {
+  return {}
+};
 
 const returnAbcString = function (value) {};
 
