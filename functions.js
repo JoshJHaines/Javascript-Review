@@ -82,9 +82,25 @@ const divisionArray = function (arg1) {
   return Number(sum.toFixed(3))
 };
 
-const oddArray = function (arg1) {};
+const oddArray = function (arg1) {
+  let array = [];
+  for (let i=0; i<arg1.length; i++){
+    if (arg1[i]%2 != 0){
+      array.push(arg1[i])
+    }
+  };
+  return array
+};
 
-const evenArray = function (arg1) {};
+const evenArray = function (arg1) {
+  let array = [];
+  for (let i=0; i<arg1.length; i++){
+    if (arg1[i] % 2 == 0){
+      array.push(arg1[i])
+    }
+  };
+  return array
+};
 
 const returnFruits = function (arg1) {};
 
