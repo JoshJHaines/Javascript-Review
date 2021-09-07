@@ -14,15 +14,25 @@ const returnEmptyObject = function () {
   return {}
 };
 
-const returnAbcString = function (value) {};
+const returnAbcString = function (value) {
+  return value
+};
 
-const returnSumOfTen = function (arg1, arg2) {};
+const returnSumOfTen = function (arg1, arg2) {
+  return arg1+arg2
+};
 
-const subtraction = function (arg1, arg2) {};
+const subtraction = function (arg1, arg2) {
+  return arg1-arg2
+};
 
-const multiplication = function (arg1, arg2) {};
+const multiplication = function (arg1, arg2) {
+  return arg1*arg2
+};
 
-const division = function (arg1, arg2) {};
+const division = function (arg1, arg2) {
+  return arg1/arg2
+};
 
 const returnArray = function (arg1) {};
 
