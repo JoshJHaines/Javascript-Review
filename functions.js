@@ -2,7 +2,9 @@ const returnEmptyString = function () {
   return ""
 };
 
-const returnZeroNumber = function () {};
+const returnZeroNumber = function () {
+  return 0
+};
 
 const returnEmptyArray = function () {};
 
