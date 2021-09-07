@@ -102,7 +102,16 @@ const evenArray = function (arg1) {
   return array
 };
 
-const returnFruits = function (arg1) {};
+const returnFruits = function (arg1) {
+  let array = [];
+  for (let i=0; i<arg1.length; i++){
+    if (arg1[i] == "apple" || 
+    arg1[i] == "orange"){
+      array.push(arg1[i])
+    }
+  };
+  return array
+};
 
 module.exports = {
   returnEmptyArray,
